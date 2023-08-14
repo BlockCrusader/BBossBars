@@ -1,0 +1,6 @@
+displayName = Block's Boss Bars
+author = BlockCrusader
+version = 1.0.1
+side = Client
+includeSource = false
+hideResources = true

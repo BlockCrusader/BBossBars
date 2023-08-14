@@ -1,0 +1,158 @@
+Configs: {
+	Config: {
+		Headers: {
+			HeaderGeneral: "[i:1344] General [i:1344]"
+			HeaderSpecials: "[i:3230] Special Display Cases [i:3230]"
+			HeaderAppearance: "[i:1091] Boss Bar Appearance [i:1091]"
+		}
+
+		DisplayName: Main Config
+
+		betterHPDisplay: {
+			Label: "[i:3617] Modded text display"
+			Tooltip:
+				'''
+				Toggles if a text display should be used with the new Boss Bar style
+				It can also replace the vanilla text display, so long as it is toggled off
+				Unlike vanilla, this display will also show the boss's name
+				Also, the Special Display Cases settings below can display certain Bosses' HP in new ways
+				Defaults to true
+				'''
+		}
+
+		percentHPDisplay: {
+			Label: "[i:3095] Percent HP text display"
+			Tooltip:
+				'''
+				Toggles an addition to the modded text display that shows the boss's remaining HP in percent form
+				Note that this only effects the Modded text display and will do nothing if that setting is false
+				Defaults to false
+				'''
+		}
+
+		brainCreepers: {
+			Label: "[i:1331] Brain of Cthulhu - Creepers"
+			Tooltip:
+				'''
+				Toggles if the Brain of Cthulhu's Creepers are counted towards BoC's cumulative HP for text displays
+				Both this mod's and vanilla's Boss Bars account for this in their display
+				Defaults to true
+				'''
+		}
+
+		skeletronHands: {
+			Label: "[i:1307] Skeletron - Hands"
+			Tooltip:
+				'''
+				Toggles if Skeletron's hands are counted towards Skeletron's cumulative HP for text displays
+				Defaults to false
+				'''
+		}
+
+		primeHands: {
+			Label: "[i:557] Skeletron Prime - Hands"
+			Tooltip:
+				'''
+				Toggles if Skeletron Prime's limbs are counted towards Prime's cumulative HP for text displays
+				Defaults to false
+				'''
+		}
+
+		golemHands: {
+			Label: "[i:1293] Golem - Hands"
+			Tooltip:
+				'''
+				Toggles if Golem's hands are counted towards Golem's cumulative HP for text displays
+				Defaults to false
+				'''
+		}
+
+		optionalPartAccounting: {
+			Label: "[i:1273] Boss Bar accounts for optional parts"
+			Tooltip:
+				'''
+				Toggles if optional boss parts (Ex: Prime's limbs) that have their text displays activated (See config. above) also are accounted for by this mod's boss bars
+				If set to false, boss parts not mandatory to a boss's defeat won't be used in the boss bar's calculations when determining how full their bar should be
+				Defaults to true
+				'''
+		}
+
+		twinsDisplay: {
+			Label: "[i:544] The Twins"
+			Tooltip:
+				'''
+				Toggles how The Twins health is managed and displayed
+				Cumulative Text: The culumative HP of the Twins is used for the text display
+				Singular Text: The HP of the most recently hit Twin is used for the text display
+				Cumulative Text & HP: The culumative HP of the Twins is used for the text display and the (modded) boss bar
+				Seperate: Each Twin is tracked completely seperatley for both text display and the (modded) boss bar
+				Vanilla: Uses cumulative text and boss bar while both Twins are alive, and then swaps to singular text and boss bar when there is only one Twin left
+				Applies to text displays, and in the case of the 'Cumulative Text & HP', 'Seperate', and 'Vanilla' options, this mod's Boss Bar
+				'''
+		}
+
+		mechDisplay: {
+			Label: "[i:5334] Mechdusa"
+			Tooltip:
+				'''
+				Note: Only applicable in Get Fixed Boi worlds
+				Determines how to display the Mechdusa's boss bar text display(s)
+				Naming Only: Just display Mechdusa's name in place of its component bosses'. Each mech's bar(s) behave independently
+				Name & HP: The (modded) boss bar uses the cumulative HP of Mechdusa (regardless of remaining component bosses) in addition naming
+				Vanilla: Completly prevent the mod from checking for Mechdusa, instead acting as though each Mech is an independent boss, like Vanilla
+				Applies to text displays, and in the case of the 'Name & HP' option, this mod's Boss Bar
+				'''
+		}
+
+		barStyleOverride: {
+			Label: "[i:4929] Override Boss Bar Style"
+			Tooltip:
+				'''
+				Allows you select a visual style that this mod's boss bar will use
+				By default, there are 5 types that are automatically chosen based on difficulty and seed (FTW/GFB)
+				A style specified here will take priority over this mechanic
+				'''
+		}
+
+		getGoodBars: {
+			Label: "[i:4938] Allow Worthy and Legendary Styles"
+			Tooltip:
+				'''
+				Toggles if the Worthy and Legendary bar styles can be triggered when the bar style isn't overriden (See the above setting)
+				The Worthy bar style is normally triggered by For The Worthy and Get Fixed Boi worlds in Classic or Expert mode (Displayed in-game as Expert and Master)
+				The Legendary bar style is normally triggered by For The Worthy and Get Fixed Boi worlds in Master mode (Displayed in-game as Legendary)
+				Both styles also have their own unique fill colors, which can be independently toggled by other settings
+				Defaults to true
+				'''
+		}
+
+		getFixedBars: {
+			Label: "[i:5382] Require Get Fixed Boi for Legendary Style"
+			Tooltip:
+				'''
+				Toggles if the Legendary bar style can only be naturally triggered by Get Fixed Boi worlds and not For The Worthy worlds
+				Defaults to false
+				'''
+		}
+
+		worthyFilling: {
+			Label: "[i:678] Allow Worthy Fill Colors"
+			Tooltip:
+				'''
+				Toggles if the Worthy bar style can use its exclusive fill colors
+				These differ from the normal green-yellow-red gradient, so some may want to disable this to avoid potential confusion
+				Defaults to true
+				'''
+		}
+
+		legendaryFilling: {
+			Label: "[i:4956] Allow Legendary Fill Colors"
+			Tooltip:
+				'''
+				Toggles if the Legendary bar style can use its exclusive fill colors
+				These differ from the normal green-yellow-red gradient, so some may want to disable this to avoid potential confusion
+				Defaults to true
+				'''
+		}
+	}
+}

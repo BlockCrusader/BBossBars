@@ -1,0 +1,18 @@
+Block's Boss Bars is yet another mod about improving boss bars, simple as that. This particular mod adds in a new boss bar style that is more or less an improved version of the vanilla boss bar, and also has plenty of config for customizing how the boss bar looks and/or behaves.
+
+New Boss Bar Style:
+Don't like how small and simple the vanilla boss bar is? This mod's boss bar has you covered with a faithful recreation of the vanilla boss bar, but with the following additions and improvements:
+- Increased size (~33% bigger)
+- Dynamic HP fill color that changes the lower health is
+- Larger text display for HP. Boss's name is also displayed
+- A unique yet vanilla-faithful appearnce - heavily inspired by Flashkirby's mod 'Yet Another Boss Health Bar' - that changes styles based on world seed and difficulty
+
+Configuration:
+Block's Boss Bars has customization options that allow you to fine tune the behavior and appearance of its boss bar:
+- Text display: Toggle the name and numerical HP display on the boss bar. You can even use this mod's display on the vanilla bar!
+- Count optional boss parts: Ever wanted the boss bar to track Skeletron, Golem, and/or other bosses' optional parts? With, this mod, you can do that and more!
+- Appearance customization: Override the difficulty-dependent boss bar stlying and choose your favorite bar. Some styles have special fill colors, which can also be toggled
+
+Final Notes:
+- Shoutout to Flashkirby, whose 1.3 mod 'Yet Another Boss Health Bar' inspired this one! There is also an option to add HP in % form
+- Enjoy! I hope this mod makes your boss fighting experience more convenient and fun, even if just a little!
